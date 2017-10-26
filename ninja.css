@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 970px;
+    padding: 30px;
+   
+}
+
+
+div {
+    display: inline-block;
+}
+
+#row1 > div {
+    height: 220px;
+    width: 220px;
+    margin: 5px;
+    color: transparent;
+}
+
+#row2 > div {
+    height: 220px;
+    width: 220px;
+    margin: 5px;
+    color: transparent;
+}
+
+img {
+    height: 200px;
+    border-style: inset;
+    border-color: brown;
+    border-width: 5px;
+}
+
+button {
+    background: darkgreen;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    margin-top:20px;
+    box-shadow: 5px 5px 10px rgb(173, 158, 39);
+    margin-left: 410px;
+}

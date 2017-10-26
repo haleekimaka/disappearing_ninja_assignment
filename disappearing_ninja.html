@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Disappearing Ninja</title>
+        <link rel="stylesheet" type="text/css" href="ninja.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                console.log("Document is Ready");
+                // ** Used as a Getter
+                // var myText = $('#myParagraph').text();
+                // alert(myText);
+
+
+                // ** Used as a Setter
+                // $('button').click(function(){
+                //     $('#myParagraph').text('see how I .text() works as a setter!');
+                // })
+                $("img").click(function(){
+                    $(this).hide("slow");
+                });
+
+                $('button').click(function(){
+                    $('img').show();
+
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+        </div>  
+        <div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+            <div><img src="puppy.png" alt="pic of puppy"></div>
+        </div>  
+        <button>Restore</button>
+
+    </body>
+</html>
